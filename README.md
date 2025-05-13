@@ -15,11 +15,9 @@ MAIN.jl is the file which the script can be run from. Number of Terminals N, Dim
 
 The first run with a new N, D or tol will be slower than any subsequent runs. Changing the position of Input terminals does not affect the running time of the algorithm. 
 
-Plotting only works for terminal sets of dimension 2 and 3.
+Plotting uses the python version of plotly and only works for terminal sets of dimension 2 and 3.
 
       plot = [true | false]
-
-The figures folder contains example plots for Tetrahedron, Octahedron, Cube, Icosahedron terminal sets.
 
 
 
