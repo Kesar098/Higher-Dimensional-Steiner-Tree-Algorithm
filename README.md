@@ -2,7 +2,7 @@
 
 The Euclidean Steiner tree problem is to find a tree of minimal length interconnecting a given set of n points in a d-dimensional Euclidean space by the insertion of Steiner points.
 
-This repository contains the code for Smith's algorithm [1] implemented in Julia v1.11 using a priority queue and Smith's numerical method is implemented using Successive Over-Relaxation. You can experiment with the intial sorting algorithm, the intial upper bound and the relaxation factor used for the numerical algorithm.
+This repository contains the code for Smith's algorithm [1] implemented in Julia v1.11 using a priority queue and Smith's numerical method is implemented using Successive Over-Relaxation. This algorithm expands on the work of Fonseca, Brazil, Winter and Zachariasen [2]. You can experiment with the intial sorting algorithm, the intial upper bound and the relaxation factor used for the numerical algorithm.
 
 
 * [1] Warren D. Smith. “How to find Steiner minimal trees in Euclidean d-space”. In: Algorithmica 7.1–6 (June 1992), 
@@ -13,13 +13,13 @@ This repository contains the code for Smith's algorithm [1] implemented in Julia
 # Usage
 MAIN.jl is the file which the script can be run from. Number of Terminals N, Dimension D and tolerance tol must be set before each new run in the global const field below. Input must be a vector of vectors where all values are Float64.
 
-The first run with a new N, D or tol will be slower than any subsequent runs. Changing the position of Input terminals does not effect the running time of the algorithm. 
+The first run with a new N, D or tol will be slower than any subsequent runs. Changing the position of Input terminals does not affect the running time of the algorithm. 
 
 Plotting only works for terminal sets of dimension 2 and 3.
 
       plot = [true | false]
 
-The figures folder contains example plots for Tetrahedron, Octahedron, Cube, Icosahedron terminal sets
+The figures folder contains example plots for Tetrahedron, Octahedron, Cube, Icosahedron terminal sets.
 
 
 
