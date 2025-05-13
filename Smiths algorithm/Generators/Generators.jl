@@ -1,0 +1,5 @@
+include("./Simplex_gen.jl")
+include("./ND_gen.jl")
+include("./octahedra_gen.jl")
+include("./PlatonicSolids.jl")
+include("./randhypercube.jl")
