@@ -1,4 +1,4 @@
-# Algorithims for Higher Dimensional Steiner Trees
+# Algorithim for Higher Dimensional Steiner Trees
 
 The Euclidean Steiner tree problem is to find a tree of minimal length interconnecting a given set of n points in a d-dimensional Euclidean space by the insertion of Steiner points.
 
